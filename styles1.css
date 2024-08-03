@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.concert_img img {
+    /* background-size: cover;
+    width: 100%;
+    height: 100%;
+    height: auto; */
+    width: 100%;   
+    height: 100%;   
+    object-fit:cover; 
+}
+
+
+.laststep_button {
+    position: absolute;
+    top: 10px; /* 調整按鈕的垂直位置 */
+    left: 10px; /* 調整按鈕的水平位置 */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

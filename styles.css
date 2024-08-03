@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+.title_rect {
+    width: 99.3%;
+    height: 31.5px;
+    background-color: #7bbe43;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.link_kkitx {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial Black;
+    margin-left: 232px;
+}
+
+.img_background {
+    width: 100%;
+    height: 510px;
+    background-color: #EBEBEB;
+}
+
+.main_image {
+    width: 940px; 
+    height: auto;
+    margin-left: 243px;
+    margin-top: 8px;
+}
+
+.concert_info {
+    margin-left: 239px;
+    margin-top: 12px;
+    font-family: Arial;
+    font-size: 18px;
+    
+}
+
+.start_time,
+.place,
+.organizer,
+.ticket,
+.pay {
+    margin-left: 245px;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+/* .step_background { */
+/*     
+} */
+
+.step_image {
+    margin-top: 3px;    
+    width: 1420px;
+}
+
+.image_with_text {
+    margin-left: 239px;
+    margin-top: 12px;
+    height: 488.5px;
+}
+
+.seat_image {
+    margin-top: 26px;
+    width: 465px;
+    height: auto;
+    float: left;
+}
+
+.ticket_selection {
+    /* float: right; */
+    /* align-items: center; Center align items vertically */
+    margin-left: 465px;
+    width: 500px;
+    height: 488.5px;
+    /* margin-top: 10px; */
+}
+
+.buy_title {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.ticket_kind {
+    display: inline;
+    /* margin-left; */
+}
+
+.ticket_seat {
+    display: inline;
+    margin: 97px;
+}
+
+.ticket_price {
+    display: inline;
+    margin : 27px;
+}
+
+.sep_line {
+    margin-left: 17px;
+    margin-top: 8px;
+    height: 1.5px;
+    width: 459px;
+    background-color: black;
+}
+
+.select_seat {
+    margin-left: 17px;
+    margin-top: 4px;
+}
+
+.seat_6980 {
+    /* border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD; */
+    /* border-left: 2px solid #DDDDDD; */
+    width: 456px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.kind {
+    float: left;
+}
+
+.seat_6380,
+.seat_6080,
+.seat_3880,
+.seat_3380,
+.seat_800,
+.seat_4001,
+.seat_4002 {
+    /* border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1.9px solid #DDDDDD;
+    border-left: 2px solid #DDDDDD; */
+    width: 456px;
+    margin-top: 4.0px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+
+.seat_name {
+    width: 110px;
+    padding-top: 1.9px;
+    padding-left: 3px;
+    font-size: 12px;
+    word-wrap:break-word;
+}
+
+.seat_choose {
+    width: 110px;
+    padding-bottom: 1.5px;
+    padding-left: 3px;
+    font-size: 10px;
+    word-wrap:break-word;
+    font-family: "Arial";
+    color: #999999;
+}
+
+.method {
+    font-size: 12px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-size: 12px;
+    margin-left: 57px;
+    float: left;
+    display: flex;
+    align-items: center;
+    font-family: "Arial";
+}
+
+.bm_6980,
+.bm_6380,
+.bm_6080,
+.bm_3880,
+.bm_3380 {
+    margin-left: 74px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #DDDDDD;
+    border-right: 0.1px solid #DDDDDD;
+    font-size: 20px;
+    padding: 0;
+}
+
+.bm_800,
+.bm_4001,
+.bm_4002{
+    margin-left: 80.5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #DDDDDD;
+    border-right: 0.1px solid #DDDDDD;
+    font-size: 20px;
+    padding: 0;
+}
+
+.bp_6980,
+.bp_6380,
+.bp_6080,
+.bp_3880,
+.bp_3380,
+.bp_800,
+.bp_4001,
+.bp_4002 {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #DDDDDD;
+    border-left: 0.1px solid #DDDDDD;
+    font-size: 20px;
+    padding: 0;
+}
+
+.num_6980,
+.num_6380,
+.num_6080,
+.num_3880,
+.num_3380,
+.num_800,
+.num_4001,
+.num_4002 {
+    width: 24px;
+    height: 19.0px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #DDDDDD;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.agreement {
+    margin-top: 17px;
+    margin-left: 239px;
+    font-size: 13px;
+}
+
+#check_agree {
+    transform: scale(0.75);
+}
+
+.nextstep {
+    margin-left: 609px;
+    margin-top: 18px;
+    width: 200px;
+    height: 37px;
+    border: none;
+    color: white;
+    /* background-color: #007bff; */
+}
+
+.kktix_information {
+    /* width: 99.3%; */
+    height: 300px;
+    background-color: #333530;
+    margin-top: 40px;
+}

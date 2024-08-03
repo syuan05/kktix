@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>拜託讓我搶到票</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="title_rect">
+        <a href="https://kktix.com/" class="link_kkitx">KKTIX</a>
+    </div>
+    <div class="img_background">
+        <img src="main.png" alt="Main Image" class="main_image">
+    </div>
+    <div class="concert_info">【10/5】2024 (G)I-DLE WORLD TOUR〔iDOL〕IN TAIPEI</div>
+    <div class="start_time">開始時間&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024/10/05 19:30 (+0800)</div>
+    <div class="place">活動地點&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;台北小巨蛋 / 台北市南京東路四段2號</div>
+    <div class="organizer">主辦單位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KKLIVE Taiwan</div>
+    <div class="ticket">票券種類&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;台灣全家 FamiPort 取票</div>
+    <div class="pay">付款方式&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信用卡</div>
+    <div class="step_background"><img src="step.png" alt="Main Image" class="step_image"></div>
+    <div class="image_with_text">
+        <img src="seat.png" alt="Seat Image" class="seat_image">
+        <div class="ticket_selection">
+            <span class="buy_title">
+                <div class="ticket_kind">票種</div>
+                <div class="ticket_seat">座位</div>
+                <div class="ticket_price">票價</div>
+                <div class="sep_line"></div>
+            </span>
+            <div class="select_seat">
+                <div id="seat_6980" class="seat_6980">
+                    <div class="kind">
+                        <div class="seat_name">全票</div>
+                        <div class="seat_choose">特A1, 特A2, 特A3</div>
+                    </div>
+                    <div class="method">自行選位</div>
+                    <div class="price">TWD$6980</div>
+                    <button id="bm_6980" class="bm_6980" onclick="decrease('6980')">-</button>
+                    <!-- <input type="button" onclick="decrease('6980')" class="bm_6890" value="-"> -->
+                    <input id="num_6980" placeholder="0" class="num_6980" type="number" min="0" oninput="checkValue('6980')">
+                    <button id="bp_6980" class="bp_6980" onclick="increase('6980')">+</button>
+                </div>
+                <div id="seat_6380" class="seat_6380">
+                    <div class="kind">
+                        <div class="seat_name">全票</div>
+                        <div class="seat_choose">紅2B, 紅2C, 紅2D, 紅2E, 黃2A, 黃2B, 黃2C, 黃2D, 黃2E, 紫2B, 紫2C, 紫2D, 紫2E</div>
+                    </div>
+                    <div class="method">自行選位</div>
+                    <div class="price">TWD$6380</div>
+                    <button id="bm_6380" class="bm_6380" onclick="decrease('6380')">-</button>
+                    <input id="num_6380" placeholder="0" class="num_6380" type="number" min="0" oninput="checkValue('6380')">
+                    <button id="bp_6380" class="bp_6380" onclick="increase('6380')">+</button>
+                </div>
+                <div id="seat_6080" class="seat_6080">
+                    <div class="kind">
+                        <div class="seat_name">全票</div>
+                        <div class="seat_choose">紅2A, 紫2E</div>
+                    </div>
+                    <div class="method">自行選位</div>
+                    <div class="price">TWD$6080</div>
+                    <button id="bm_6080" class="bm_6080" onclick="decrease('6080')">-</button>
+                    <input id="num_6080" placeholder="0" class="num_6080" type="number" min="0" oninput="checkValue('6080')">
+                    <button id="bp_6080" class="bp_6080" onclick="increase('6080')">+</button>
+                </div>
+                <div id="seat_3880" class="seat_3880">
+                    <div class="kind">
+                        <div class="seat_name">全票</div>
+                        <div class="seat_choose">黃3A, 黃3B, 黃3C, 黃3D, 黃3E, 黃3F, 黃3G, 黃3H, 黃3I, 黃3J</div>
+                    </div>
+                    <div class="method">自行選位</div>
+                    <div class="price">TWD$3880</div>
+                    <button id="bm_3880" class="bm_3880" onclick="decrease('3880')">-</button>
+                    <input id="num_3880" placeholder="0" class="num_3880" type="number" min="0" oninput="checkValue('3880')">
+                    <button id="bp_3880" class="bp_3880" onclick="increase('3880')">+</button>
+                </div>
+                <div id="seat_3380" class="seat_3380">
+                    <div class="kind">
+                        <div class="seat_name">全票</div>
+                        <div class="seat_choose">黃3C, 黃3D, 黃3E, 黃3F, 黃3G, 黃3H</div>
+                    </div>
+                    <div class="method">自行選位</div>
+                    <div class="price">TWD$3380</div>
+                    <button id="bm_3380" class="bm_3380" onclick="decrease('3380')">-</button>
+                    <input id="num_3380" placeholder="0" class="num_3380" type="number" min="0" oninput="checkValue('3380')">
+                    <button id="bp_3380" class="bp_3380" onclick="increase('3380')">+</button>
+                </div>
+                <div id="seat_800" class="seat_800">
+                    <div class="kind">
+                        <div class="seat_name">全票</div>
+                        <div class="seat_choose">黃3B, 黃3C, 黃3D, 黃3E, 黃3F, 黃3G, 黃3H, 黃3I</div>
+                    </div>
+                    <div class="method">自行選位</div>
+                    <div class="price">TWD$800</div>
+                    <button id="bm_800" class="bm_800" onclick="decrease('800')">-</button>
+                    <input id="num_800" placeholder="0" class="num_800" type="number" min="0" oninput="checkValue('800')">
+                    <button id="bp_800" class="bp_800" onclick="increase('800')">+</button>
+                </div>
+                <div id="seat_4001" class="seat_4001">
+                    <div class="kind">
+                        <div class="seat_name">身心障礙票(輪椅席)</div>
+                        <div class="seat_choose">紅2A輪椅, 紅2D輪椅, 紫2A輪椅, 紫2D輪椅</div>
+                    </div>
+                    <div class="method">自行選位</div>
+                    <div class="price">TWD$400</div>
+                    <button id="bm_4001" class="bm_4001" onclick="decrease('4001')">-</button>
+                    <input id="num_4001" placeholder="0" class="num_4001" type="number" min="0" oninput="checkValue('4001')">
+                    <button id="bp_4001" class="bp_4001" onclick="increase('4001')">+</button>
+                </div>
+                <div id="seat_4002" class="seat_4002">
+                    <div class="kind">
+                        <div class="seat_name">身心障礙票(非輪椅席)</div>
+                        <div class="seat_choose">紅2A, 紅2D, 紫2A, 紫2D</div>
+                    </div>
+                    <div class="method">自行選位</div>
+                    <div class="price">TWD$400</div>
+                    <button id="bm_4002" class="bm_4002" onclick="decrease('4002')">-</button>
+                    <input id="num_4002" placeholder="0" class="num_4002" type="number" min="0" oninput="checkValue('4002')">
+                    <button id="bp_4002" class="bp_4002" onclick="increase('4002')">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="agreement">
+        <input id="check_agree" type="checkbox" onclick="checkNextstepColor()">
+        <label for="check_agree">我已經閱讀並同意 服務條款 與 隱私權政策</label>
+    </div>
+    <div class="next">
+        <button id="nextstep" class="nextstep" onclick="NextStepAction()">下一步</button>
+    </div>
+
+    <div class="kktix_information"></div>
+    <script src="script.js"></script>
+</body>
+</html>
